@@ -1,5 +1,57 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (version 18 or higher)
+- npm (comes with Node.js) or your preferred package manager
+
+## Setup Instructions
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/fatin-israq/projex.git
+   cd projex
+   ```
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   # or
+   yarn install
+   # or
+   pnpm install
+   # or
+   bun install
+   ```
+
+3. **Run the development server**
+
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   # or
+   bun dev
+   ```
+
+4. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000) to see the application.
+
+## Available Scripts
+
+- `npm run dev` - Start the development server
+- `npm run build` - Build the application for production
+- `npm run start` - Start the production server
+- `npm run lint` - Run ESLint to check for code issues
+
+## Getting Started
+
 ## Getting Started
 
 First, run the development server:
@@ -18,7 +70,21 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
+## Development
+
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+### Project Structure
+
+```
+projex/
+├── src/
+│   ├── app/          # App router pages and layouts
+│   ├── components/   # Reusable components
+│   └── lib/          # Utility functions
+├── public/           # Static assets
+└── ...config files
+```
 
 ## Learn More
 
